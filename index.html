@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Ahmadi - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <h1 class="name-header">Zahra Ahmadi</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="main-title">Hi, I'm Zahra Ahmadi</h1>
+                <p class="hero-bio">
+                    I am Zahra Ahmadi, a web development intern with a strong interest in creating modern and user-friendly websites. I have experience working with HTML and content management systems, and I am continuously improving my skills through practical projects and training.
+                </p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <figure class="profile-figure">
+                    <img src="pp.jpg" 
+                         alt="Profile photo of Zahra Ahmadi" class="profile-image">
+                    <figcaption>Zahra at a coding meetup</figcaption>
+                </figure>
+                
+                <div class="bio-content">
+                    <h2>About Me</h2>
+                    <p>
+                       I am committed to growing as a developer, learning new technologies, and creating digital experiences that reflect both creativity and professionalism.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books Section -->
+        <section id="books" class="section books-section">
+            <div class="container">
+                <h2>Favorite Books</h2>
+                <table class="books-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Atomic Habits</td>
+                            <td>James Clear</td>
+                            <td>2008</td>
+                        </tr>
+                        <tr>
+                            <td>Narnia </td>
+                            <td>C.S. LEWIS</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>The part that make up a whole</td>
+                            <td>Ponah Moqemi</td>
+                            <td>2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section id="goals" class="section">
+            <div class="container">
+                <div class="goals-content">
+                    <h2>My Goals</h2>
+                    <ol class="goals-list">
+                        <li>Build 10+ portfolio projects</li>
+                        <li>Master CSS Grid and Flexbox</li>
+                        <li>Learn React framework</li>
+                        <li>Land first junior developer role</li>
+                    </ol>
+                </div>
+                
+                <div class="fun-fact">
+                    <h3>🎉 Fun Fact About Me</h3>
+                    <p>I enjoy learning new skills, especially in web development.
+I like creating websites and seeing my ideas come to life.
+I can spend hours improving small details in my work.
+I enjoy both creativity and problem-solving.
+I am always curious and love exploring new things.
+I believe learning something new every day is important.
+I enjoy working quietly and focusing deeply on my goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Book Recommendation</h2>
+                <p>Share a book you'd recommend!</p>
+                <form class="recommendation-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="book">Book Title:</label>
+                        <input type="text" id="book" name="book" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="author">Author:</label>
+                        <input type="text" id="author" name="author" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why recommend it?</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Recommendation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Zahra Ahmadi. Built with HTML & CSS.</p>
+            <p><a href="https://developer.mozilla.org" target="_blank" class="external-link">w3 school</a> - My favorite learning resource</p>
+        </div>
+    </footer>
+</body>
+</html>
